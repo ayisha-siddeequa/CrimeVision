@@ -1,0 +1,72 @@
+body{
+  font-family: Georgia, Garamond, "Times New Roman";
+  margin: auto;
+  background-image: url("images/c4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul{
+   list-style-type:none;
+   margin:0px;
+   padding:0px;
+   overflow:hidden;
+   background-color: darkred;
+   position:fixed;
+   width:100%;
+   top:0px;
+}
+
+li{
+   float:left;
+}
+
+li a{
+   font-size:20px;
+   display:block;
+   color:white;
+   text-shadow: 1px 1px 2px white;
+   text-align:center;
+   padding:19px 16px;
+   text-decoration:none;
+}
+
+li a:hover{
+    background-color:red;
+    opacity:0.9;
+    color:white;
+}
+
+.topbar{
+   font-size:25px;
+   padding-left:20px;
+   padding-right:500px;
+   padding-top:19px;
+   padding-bottom:19px;
+   color:white;
+   text-shadow:1px 1px 2px red;
+   text-align:center;
+   font-weight:bold;
+}
+
+.imagepredict{
+   border: 2px solid darkred;
+   background-color: white;
+   margin-top: 150px;
+   margin-right: 400px;
+   margin-left: 400px;
+   padding: 30px;
+   font-family: TimesNewRoman;
+   font-size: 24px;
+}
+
+.button{
+   background-color: darkred;
+   color: white;
+   padding: 10px;
+   font-size: 22px;
+}
+.button::hover{
+   background-color: black;
+   color: white;
+}

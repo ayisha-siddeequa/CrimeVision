@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crime Identification</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="about" name="description">
+	<link rel="stylesheet" href="static\css\predict.css">
+	<style>
+	body{
+			background-image:url("static/img/c4.jpg");
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div>
+		<ul>
+			<li class='topbar'>CRIME VISION - A CRIME CLASSIFICATION </li>
+			<li><a href='/'> Home</a></li>
+		</ul>
+	</div>
+	<div class='imagepredict'>
+		<form action="result" method="post" enctype="multipart/form-data">
+			<label>Upload the image to predict</label><br><br>
+			<input type='file' name='image' value="image"><br><br>
+			<input type='submit' value='Predict Image' id='button'><br>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+  font-family: Georgia, Garamond, "Times New Roman";
+  margin: auto;
+  background-image: url("images\c4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul{
+   list-style-type:none;
+   margin:0px;
+   padding:0px;
+   overflow:hidden;
+   background-color: darkred; 
+   position:fixed;
+   width:100%;
+   top:0px;
+}
+
+li{
+   float:left;
+}
+
+li a{
+   font-size:20px;
+   display:block;
+   color:white;
+   text-shadow: 1px 1px 2px white;
+   text-align:center;
+   padding:19px 16px;
+   text-decoration:none;
+}
+
+li a:hover{
+    background-color:red;
+    opacity:0.9;
+    color:white;
+}
+
+.topbar{
+   font-size:25px;
+   padding-left:20px;
+   padding-right:500px;
+   padding-top:19px;
+   padding-bottom:19px;
+   color:white;
+   text-shadow:1px 1px 2px red;
+   text-align:center;
+   font-weight:bold;
+}
+
+.crime{
+   margin-top: 150px;
+   display: inline;
+   padding-left: 30px;
+   padding-right: 20px;
+   float: right;
+}
+
+.con{
+   font-family: TimesNewRoman;
+   font-size: 30px;
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+p{
+   margin-top: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: center;
+}
+
+p.pcon{
+   color: black;
+   background-color: white;
+   border: 2px solid darkred;
+   border-radius: 20px;
+   font-size: 22px;
+   font-family: TimesNewRoman;
+   padding: 20px;
+   margin-top: 100px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
